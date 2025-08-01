@@ -123,12 +123,36 @@
 
           </fieldset>
 
+          <fieldset class="gardian"></fieldset>
+            <legend>Informações do responsável</legend>
+
+            <div class="input-wrapper">
+              <label for="gardian">Nome do responsável</label>
+              <input type="text" id="gardian" name="gardian">
+              <small>Principal responsável legal e contato de emergência</small>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="phone">Telefone</label>
+              <input type="text" id="phone" name="phone"
+              placeholder="(10) 9 8765-4321">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="mail">Email</label>
+              <input type="email" name="mail" id="mail" required>
+              <div class="error">
+                <img src="assets/icons/alert-circle.svg" alt="Ícone de alerta vermelho">
+                <span>Insira um e-email válido</span>
+              </div>
+            </div>
+
         </form>
       </div>
     </main>
 
     <aside>
-      <div class="container">
+      <div class="aside-container">
         <header>
           <img src="assets/logo.svg" alt="Logo estrelas do amanhã">
           <h2>Porque cada momento de <span>aprendizado</span> conta</h2>
