@@ -27,12 +27,12 @@
   }
 
   &:hover, &:focus-within {
-    .checkbox-image { 
+    .checkbox-image {   
       background-image: url(../../assets/icons/checkbox-hover.svg);
     }
   }
 
-  &:has(:checked), .checkbox-image {
+  &:has(:checked) .checkbox-image {
     background-image: url(../../assets/icons/checkbox-checked.svg );
   }
 }
